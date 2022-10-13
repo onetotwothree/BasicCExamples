@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdbool.h>
+
 bool increasingTriplet(int* nums, int numsSize){
     if(numsSize < 3){
         goto skip;
@@ -30,4 +33,11 @@ bool increasingTriplet(int* nums, int numsSize){
     printf("%i %i %i\n", lowest, middle, highest);
     skip:
     return ret;
+}
+
+int main(){
+    int nums[] = {2,1,0,2,0,2,0,2,0,2,0,1};
+    int numsSize = 12;
+    printf("%d\n",increasingTriplet(nums,numsSize));
+    return 1;
 }
