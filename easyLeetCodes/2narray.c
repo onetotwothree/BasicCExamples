@@ -39,6 +39,6 @@ int main(){
     time_spent += (double)(end - begin) / CLOCKS_PER_SEC;
 
     printf("The elapsed time is %f seconds\n", time_spent);
-    return 1;
+    return 0;
 
 }
