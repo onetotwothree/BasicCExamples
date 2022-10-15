@@ -39,5 +39,5 @@ int main(){
     int nums[] = {2,1,0,2,0,2,0,2,0,2,0,1};
     int numsSize = 12;
     printf("%d\n",increasingTriplet(nums,numsSize));
-    return 1;
+    return 0;
 }
